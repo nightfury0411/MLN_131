@@ -61,6 +61,10 @@ export default function LandingPage() {
               <div className='w-2 h-2 bg-gray-300 rounded-full mt-2 group-hover:scale-125 transition-transform'></div>
               <span className='text-gray-300'>xóa bỏ chế độ tư hữu tư bản chủ nghĩa, thiết lập quan hệ sản xuất mới dựa trên công hữu về tư liệu sản xuất.</span>
             </div>
+            <div className='flex items-start space-x-3 bg-gradient-to-r from-[#D4A017] p-3 rounded-lg'>
+              <div className='w-2 h-2 bg-gray-300 rounded-full mt-2 group-hover:scale-125 transition-transform'></div>
+              <span className='text-gray-300'>Vai trò quan trọng trong tạo dựng tiền đề vật chất – kỹ thuật và thúc đẩy tăng trưởng kinh tế bền vững, đáp ứng nhu cầu ngày càng cao của xã hội.</span>
+            </div>
 
           </div>
         </div>
@@ -80,6 +84,10 @@ export default function LandingPage() {
             <div className='flex items-center space-x-3 p-3 bg-gradient-to-r from-[#D4A017] to-transparent rounded-lg hover:shadow-md transition-shadow'>
               <div className='w-2 h-2 bg-gray-300 rounded-full group-hover:scale-125 transition-transform'></div>
               <span className='text-gray-300'>Lãnh đạo cách mạng và xây dựng nhà nước kiểu mới.</span>
+            </div>
+            <div className='flex items-center space-x-3 p-3 bg-gradient-to-r from-[#D4A017] to-transparent rounded-lg hover:shadow-md transition-shadow'>
+              <div className='w-2 h-2 bg-gray-300 rounded-full group-hover:scale-125 transition-transform'></div>
+              <span className='text-gray-300'>cải tạo xã hội cũ, xây dựng xã hội mới công bằng, dân chủ và văn minh, đồng thời bảo đảm dân chủ, công bằng xã hội và quyền làm chủ của nhân dân lao động.</span>
             </div>
 
 
@@ -101,6 +109,10 @@ export default function LandingPage() {
               <div className='w-2 h-2 bg-gray-300 rounded-full mt-2 group-hover:scale-125 transition-transform'></div>
               <span className='text-gray-300'>Xây dựng con người và giá trị mới.</span>
             </div>
+            <div className='group flex items-start space-x-3 p-3 bg-gradient-to-r from-[#D4A017] to-transparent rounded-lg hover:shadow-md transition-all'>
+              <div className='w-2 h-2 bg-gray-300 rounded-full mt-2 group-hover:scale-125 transition-transform'></div>
+              <span className='text-gray-300'>giáo dục con người mới xã hội chủ nghĩa – những con người có tri thức, đạo đức, tinh thần hợp tác, ý thức tổ chức – kỷ luật và tinh thần quốc tế cao.</span>
+            </div>
 
 
           </div>
@@ -119,7 +131,11 @@ export default function LandingPage() {
           <div className='space-y-3'>
             <div className='flex items-start space-x-3 p-3 bg-gradient-to-r from-[#D4A017] rounded-lg transition-colors'>
               <div className='w-2 h-2 bg-gray-300 rounded-full mt-2 group-hover:scale-125 transition-transform'></div>
-              <span className='text-gray-300'>Giá trị của sứ mệnh trong thời đại ngày nay</span>
+              <span className='text-gray-300'>Giá trị của sứ mệnh trong thời đại ngày nay.</span>
+            </div>
+            <div className='flex items-start space-x-3 p-3 bg-gradient-to-r from-[#D4A017] rounded-lg transition-colors'>
+              <div className='w-2 h-2 bg-gray-300 rounded-full mt-2 group-hover:scale-125 transition-transform'></div>
+              <span className='text-gray-300'>GĐể hoàn thành sứ mệnh trong thời đại mới, giai cấp công nhân cần không ngừng học tập, nâng cao trình độ chuyên môn, ý thức chính trị và năng lực sáng tạo.</span>
             </div>
 
 
