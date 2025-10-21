@@ -48,113 +48,81 @@ export default function LandingPage() {
   const cards = [
     {
       id: 'politics',
-      title: 'Chính trị',
+      title: 'Kinh tế ',
       icon: <Building2 className='w-8 h-8' />,
-      quote: 'Dân vừa là chủ, vừa là người làm chủ.',
-      image: '/images/image9.jpg',
+      quote: '',
+      image: '/images/MLN1.jpg',
       gradient: 'from-[#D4A017] to-[#F3C44D]',
       content: (
         <div className='space-y-4'>
-          <p className='text-gray-300'>
-            Xây dựng chế độ dân chủ XHCN: nhân dân là chủ và là người làm chủ.
-          </p>
+
           <div className='space-y-3'>
             <div className='flex items-start space-x-3 bg-gradient-to-r from-[#D4A017] p-3 rounded-lg'>
               <div className='w-2 h-2 bg-gray-300 rounded-full mt-2 group-hover:scale-125 transition-transform'></div>
-              <span className='text-gray-300'>Tất cả quyền lợi – quyền hạn thuộc về nhân dân.</span>
+              <span className='text-gray-300'>xóa bỏ chế độ tư hữu tư bản chủ nghĩa, thiết lập quan hệ sản xuất mới dựa trên công hữu về tư liệu sản xuất.</span>
             </div>
-            <div className='flex items-start space-x-3 bg-gradient-to-r from-[#D4A017] p-3 rounded-lg'>
-              <div className='w-2 h-2 bg-gray-300 rounded-full mt-2 group-hover:scale-125 transition-transform'></div>
-              <span className='text-gray-300'>Nhà nước của dân, do dân, vì dân.</span>
-            </div>
+
           </div>
         </div>
       ),
     },
     {
       id: 'economy',
-      title: 'Kinh tế',
+      title: 'Chính trị – xã hội',
       icon: <Users className='w-8 h-8' />,
       quote: '',
-      image: '/images/image2.jpg',
+      image: '/images/MLN2.jpg',
       gradient: 'from-[#D4A017] to-[#F3C44D]',
       content: (
         <div className='space-y-4'>
-          <div className='bg-gradient-to-r from-[#D4A017] to-transparent p-4 rounded-lg'>
-            <p className='font-semibold text-gray-300'>Mục tiêu:</p>
-            <p className='text-gray-300'>
-              Kinh tế mạnh để làm nền tảng cho dân chủ và đời sống nhân dân.
-            </p>
-          </div>
+
           <div className='space-y-3'>
             <div className='flex items-center space-x-3 p-3 bg-gradient-to-r from-[#D4A017] to-transparent rounded-lg hover:shadow-md transition-shadow'>
               <div className='w-2 h-2 bg-gray-300 rounded-full group-hover:scale-125 transition-transform'></div>
-              <span className='text-gray-300'>Xây dựng nền kinh tế phát triển cao.</span>
+              <span className='text-gray-300'>Lãnh đạo cách mạng và xây dựng nhà nước kiểu mới.</span>
             </div>
-            <div className='flex items-center space-x-3 p-3 bg-gradient-to-r from-[#D4A017] to-transparent rounded-lg hover:shadow-md transition-shadow'>
-              <div className='w-2 h-2 bg-gray-300 rounded-full group-hover:scale-125 transition-transform'></div>
-              <span className='text-gray-300'>
-                Công – nông nghiệp hiện đại, khoa học – kỹ thuật tiên tiến.
-              </span>
-            </div>
-            <div className='flex items-center space-x-3 p-3 bg-gradient-to-r from-[#D4A017] to-transparent rounded-lg hover:shadow-md transition-shadow'>
-              <div className='w-2 h-2 bg-gray-300 rounded-full group-hover:scale-125 transition-transform'></div>
-              <span className='text-gray-300'>Dựa trên sở hữu toàn dân và tập thể.</span>
-            </div>
+
+
           </div>
         </div>
       ),
     },
     {
       id: 'culture',
-      title: 'Văn hoá',
+      title: 'Văn hóa – tư tưởng',
       icon: <BookOpen className='w-8 h-8' />,
       quote: '',
-      image: '/images/image3.jpg',
+      image: '/images/MLN3.jpg',
       gradient: 'from-[#D4A017] to-[#F3C44D]',
       content: (
         <div className='space-y-4'>
           <div className='space-y-3'>
             <div className='group flex items-start space-x-3 p-3 bg-gradient-to-r from-[#D4A017] to-transparent rounded-lg hover:shadow-md transition-all'>
               <div className='w-2 h-2 bg-gray-300 rounded-full mt-2 group-hover:scale-125 transition-transform'></div>
-              <span className='text-gray-300'>Nền văn hoá dân tộc, khoa học, đại chúng.</span>
+              <span className='text-gray-300'>Xây dựng con người và giá trị mới.</span>
             </div>
-            <div className='group flex items-start space-x-3 p-3 bg-gradient-to-r from-[#D4A017] to-transparent rounded-lg hover:shadow-md transition-all'>
-              <div className='w-2 h-2 bg-gray-300 rounded-full mt-2 group-hover:scale-125 transition-transform'></div>
-              <span className='text-gray-300'>Tiếp thu tinh hoa văn hoá nhân loại.</span>
-            </div>
-            <div className='group flex items-start space-x-3 p-3 bg-gradient-to-r from-[#D4A017] to-transparent rounded-lg hover:shadow-md transition-all'>
-              <div className='w-2 h-2 bg-gray-300 rounded-full mt-2 group-hover:scale-125 transition-transform'></div>
-              <span className='text-gray-300'>Văn hoá là nền tảng tinh thần của xã hội.</span>
-            </div>
+
+
           </div>
         </div>
       ),
     },
     {
       id: 'social',
-      title: 'Quan hệ xã hội',
+      title: 'Ý nghĩa thực tiễn',
       icon: <Handshake className='w-8 h-8' />,
-      image: '/images/image4.jpg',
-      quote: 'Ai cũng có cơm ăn, áo mặc, ai cũng được học hành',
+      image: '/images/MLN4.jpg',
+      quote: '',
       gradient: 'from-[#D4A017] to-[#F3C44D]',
       content: (
         <div className='space-y-4'>
           <div className='space-y-3'>
             <div className='flex items-start space-x-3 p-3 bg-gradient-to-r from-[#D4A017] rounded-lg transition-colors'>
               <div className='w-2 h-2 bg-gray-300 rounded-full mt-2 group-hover:scale-125 transition-transform'></div>
-              <span className='text-gray-300'>Dân chủ, công bằng, văn minh.</span>
+              <span className='text-gray-300'>Giá trị của sứ mệnh trong thời đại ngày nay</span>
             </div>
-            <div className='flex items-start space-x-3 p-3 bg-gradient-to-r from-[#D4A017] rounded-lg transition-colors'>
-              <div className='w-2 h-2 bg-gray-300 rounded-full mt-2 group-hover:scale-125 transition-transform'></div>
-              <span className='text-gray-300'>Tôn trọng, bình đẳng, đoàn kết giữa con người.</span>
-            </div>
-            <div className='flex items-start space-x-3 p-3 bg-gradient-to-r from-[#D4A017] rounded-lg transition-colors'>
-              <div className='w-2 h-2 bg-gray-300 rounded-full mt-2 group-hover:scale-125 transition-transform'></div>
-              <span className='text-gray-300'>
-                Bảo đảm các quyền tự do: học tập, tín ngưỡng, ngôn luận, bầu cử…
-              </span>
-            </div>
+
+
           </div>
         </div>
       ),
@@ -164,47 +132,47 @@ export default function LandingPage() {
   const motivationSteps = [
     {
       id: 1,
-      title: 'Bắt đầu từ Nhân dân',
+      title: 'Xuất phát từ cơ sở kinh tế – xã hội của sản xuất hiện đại',
       icon: <Users className='w-8 h-8' />,
       color: 'from-[#D4A017] to-[#F3C44D]',
       content: [
-        'Nhân dân vừa là chủ thể, vừa là động lực quyết định.',
-        'Khi lợi ích của mỗi cá nhân gắn bó với cộng đồng, sức mạnh chung sẽ nhân lên gấp bội.',
+        'Sứ mệnh lịch sử của giai cấp công nhân bắt nguồn từ nền sản xuất hiện đại có tính xã hội hóa cao.',
+        'Sự phát triển của đại công nghiệp tư bản đã tạo ra lực lượng sản xuất tiên tiến, đòi hỏi một phương thức sản xuất mới phù hợp với trình độ phát triển ấy.',
       ],
-      image: '/images/image5.jpg',
+      image: '/images/MLN1.1.jpg',
     },
     {
       id: 2,
-      title: 'Kết nối bằng Đại đoàn kết',
+      title: 'Mang tính nhân loại, không chỉ vì lợi ích giai cấp',
       icon: <Link className='w-8 h-8' />,
       color: 'from-[#D4A017] to-[#F3C44D]',
       content: [
-        'Liên minh công – nông – trí thức là nền tảng xã hội vững chắc.',
-        'Dưới sự lãnh đạo của Đảng, tinh thần đoàn kết biến thành sức mạnh thực tế để vượt qua khó khăn.',
+        'Sứ mệnh này không chỉ thuộc về công nhân, mà là sự nghiệp của toàn thể nhân dân lao động dưới sự lãnh đạo của Đảng Cộng sản.',
+        'Mục tiêu hướng đến là giải phóng con người khỏi áp bức, bóc lột, xây dựng xã hội tự do, bình đẳng, phát triển toàn diện.',
       ],
-      image: '/images/image6.jpg',
+      image: '/images/MLN1.2.jpg',
     },
     {
       id: 3,
-      title: 'Tổ chức dẫn đường',
+      title: 'Không thay thế một chế độ bóc lột bằng chế độ bóc lột mới',
       icon: <Shield className='w-8 h-8' />,
       color: 'from-[#D4A017] to-[#F3C44D]',
       content: [
-        'Đảng là hạt nhân lãnh đạo, Nhà nước giữ vai trò quản lý, các đoàn thể huy động quần chúng.',
-        'Sự phối hợp này bảo đảm cho tiến trình xây dựng CNXH đi đúng hướng.',
+        'Giai cấp công nhân xóa bỏ triệt để sở hữu tư nhân về tư liệu sản xuất chủ yếu, không thiết lập một giai cấp thống trị mới.',
+        'Mục tiêu là quan hệ sản xuất công hữu, nơi con người làm chủ xã hội và quá trình sản xuất.',
       ],
-      image: '/images/image7.jpg',
+      image: '/images/MLN1.3.jpg',
     },
     {
       id: 4,
-      title: 'Vươn tới hình mẫu Con người XHCN',
+      title: 'Gắn với quá trình cải tạo xã hội cũ và xây dựng xã hội mới',
       icon: <Heart className='w-8 h-8' />,
       color: 'from-[#D4A017] to-[#F3C44D]',
       content: [
-        'Hành trình kết thúc (và cũng mở ra tương lai) khi hình thành con người XHCN: có tri thức, đạo đức, tinh thần yêu nước, chống chủ nghĩa cá nhân.',
-        'Đây là kết quả đồng thời cũng là động lực lâu dài cho sự phát triển của CNXH.',
+        'Giành chính quyền chỉ là bước khởi đầu.',
+        'Mục tiêu sâu xa là xây dựng xã hội cộng sản chủ nghĩa – dựa trên công hữu, dân chủ, công bằng, văn minh, gắn với sự phát triển toàn diện của con người.',
       ],
-      image: '/images/image8.jpg',
+      image: '/images/MLN1.4.jpg',
     },
   ];
 
@@ -509,7 +477,7 @@ export default function LandingPage() {
         <div className='max-w-7xl mx-auto'>
           <h2 className='text-4xl md:text-5xl font-bold text-center mb-16' data-aos='fade-down'>
             <span className='bg-gradient-to-r from-[#D4A017] to-[#F3C44D] bg-clip-text text-transparent'>
-              Mục tiêu của Chủ nghĩa xã hội
+              Nội dung sứ mệnh lịch sử của giai cấp công nhân
             </span>
           </h2>
 
@@ -524,9 +492,8 @@ export default function LandingPage() {
                 data-aos-delay={index * 200}
               >
                 <div
-                  className={`relative w-full h-full transition-transform duration-700 transform-gpu preserve-3d ${
-                    flippedCards[card.id] ? 'rotate-y-180' : ''
-                  }`}
+                  className={`relative w-full h-full transition-transform duration-700 transform-gpu preserve-3d ${flippedCards[card.id] ? 'rotate-y-180' : ''
+                    }`}
                   style={{
                     transformStyle: 'preserve-3d',
                   }}
@@ -587,11 +554,12 @@ export default function LandingPage() {
         <div className='max-w-7xl mx-auto'>
           <h2 className='text-4xl md:text-5xl font-bold text-center mb-4' data-aos='fade-down'>
             <span className='bg-gradient-to-r from-[#D4A017] to-[#F3C44D] bg-clip-text text-transparent'>
-              Động lực của Chủ nghĩa xã hội
+              Đặc điểm sứ mệnh lịch sử của giai cấp công nhân
+
             </span>
           </h2>
           <p className='text-xl text-center text-gray-400 mb-16' data-aos='fade-up'>
-            Hành trình từ con người đến xã hội mới
+            Hành trình từ cơ sở kinh tế đến mục tiêu giải phóng con người
           </p>
 
           <div className='relative'>
@@ -600,9 +568,8 @@ export default function LandingPage() {
             {motivationSteps.map((step, index) => (
               <div key={step.id} className='relative mb-16 last:mb-0'>
                 <div
-                  className={`flex ${
-                    index % 2 === 0 ? 'lg:flex-row' : 'lg:flex-row-reverse'
-                  } flex-col lg:gap-8 items-center`}
+                  className={`flex ${index % 2 === 0 ? 'lg:flex-row' : 'lg:flex-row-reverse'
+                    } flex-col lg:gap-8 items-center`}
                   data-aos={index % 2 === 0 ? 'fade-right' : 'fade-left'}
                   data-aos-delay={index * 100}
                 >
@@ -647,221 +614,218 @@ export default function LandingPage() {
       </section>
 
       {/* Section: Thời kỳ quá độ */}
-<section id='transition-period' className='py-20 px-4 bg-[#1A1A1A]'>
-  <div className='max-w-7xl mx-auto'>
-    {/* Main Title */}
-    <h2 className='text-4xl md:text-5xl font-bold text-center mb-16' data-aos='fade-down'>
-      <span className='bg-gradient-to-r from-[#D4A017] to-[#F3C44D] bg-clip-text text-transparent'>
-        Thời kỳ quá độ lên Chủ nghĩa xã hội
-      </span>
-    </h2>
-
-    {/* Giới thiệu: Tính chất + Đặc điểm */}
-    <div className='grid grid-cols-1 lg:grid-cols-2 gap-12 mb-20' data-aos='fade-up'>
-      <div className='space-y-8'>
-        {/* Tính chất */}
-        <div className='bg-[#272626] rounded-2xl p-8 border border-[#D4A017]/20 hover:border-[#D4A017]/40 transition-all duration-300'>
-          <div className='flex items-center mb-6'>
-            <div className='p-3 rounded-lg bg-gradient-to-r from-[#D4A017] to-[#F3C44D]'>
-              <Star className='w-8 h-8 text-gray-900' />
-            </div>
-            <h3 className='text-2xl font-bold ml-4 text-gray-100'>Tính chất</h3>
-          </div>
-          <p className='text-gray-300 leading-relaxed text-lg'>
-            Chủ tịch Hồ Chí Minh đã nhận định thời kỳ quá độ lên chủ nghĩa xã hội ở Việt Nam là một thời kỳ{' '}
-            <span className='text-[#F3C44D] font-semibold italic'>
-              "cải biến sâu sắc nhất nhưng phức tạp, lâu dài, khó khăn, gian khổ."
+      <section id='transition-period' className='py-20 px-4 bg-[#1A1A1A]'>
+        <div className='max-w-7xl mx-auto'>
+          {/* Main Title */}
+          <h2 className='text-4xl md:text-5xl font-bold text-center mb-16' data-aos='fade-down'>
+            <span className='bg-gradient-to-r from-[#D4A017] to-[#F3C44D] bg-clip-text text-transparent'>
+              Điều kiện thực hiện sứ mệnh lịch sử của giai cấp công nhân trong thời đại ngày nay
             </span>
-          </p>
-        </div>
+          </h2>
 
-        {/* Đặc điểm */}
-        <div className='bg-[#272626] rounded-2xl p-8 border border-[#D4A017]/20 hover:border-[#D4A017]/40 transition-all duration-300'>
-          <div className='flex items-center mb-6'>
-            <div className='p-3 rounded-lg bg-gradient-to-r from-[#D4A017] to-[#F3C44D]'>
-              <ArrowRight className='w-8 h-8 text-gray-900' />
+          {/* Giới thiệu: Tính chất + Đặc điểm */}
+          <div className='grid grid-cols-1 lg:grid-cols-2 gap-12 mb-20' data-aos='fade-up'>
+            <div className='space-y-8'>
+              {/* Tính chất */}
+              <div className='bg-[#272626] rounded-2xl p-8 border border-[#D4A017]/20 hover:border-[#D4A017]/40 transition-all duration-300'>
+                <div className='flex items-center mb-6'>
+                  <div className='p-3 rounded-lg bg-gradient-to-r from-[#D4A017] to-[#F3C44D]'>
+                    <Star className='w-8 h-8 text-gray-900' />
+                  </div>
+                  <h3 className='text-2xl font-bold ml-4 text-gray-100'>Điều kiện Khách quan:</h3>
+                </div>
+                <ul className='list-disc text-gray-300 leading-relaxed text-lg' style={{ color: 'white' }}>
+                  <li>Phát triển lực lượng sản xuất hiện đại.</li>
+                  <li>Mâu thuẫn xã hội tư bản thúc đẩy cách mạng.</li>
+                  <li>Tiến bộ khoa học – công nghệ khẳng định vai trò công nhân.</li>
+                  <li>Bối cảnh quốc tế thuận lợi cho liên kết và phát triển.</li>
+                </ul>
+              </div>
+
+              {/* Đặc điểm */}
+              <div className='bg-[#272626] rounded-2xl p-8 border border-[#D4A017]/20 hover:border-[#D4A017]/40 transition-all duration-300'>
+                <div className='flex items-center mb-6'>
+                  <div className='p-3 rounded-lg bg-gradient-to-r from-[#D4A017] to-[#F3C44D]'>
+                    <ArrowRight className='w-8 h-8 text-gray-900' />
+                  </div>
+                  <h3 className='text-2xl font-bold ml-4 text-gray-100'>Điều kiện Chủ quan:</h3>
+                </div>
+                <ul className='list-disc text-gray-300 leading-relaxed text-lg' style={{ color: 'white' }}>
+                  <li>Sự lãnh đạo của Đảng Cộng sản.</li>
+                  <li>Ý thức giai cấp, lý tưởng XHCN.</li>
+                  <li>Trình độ tri thức và kỹ năng nghề nghiệp.</li>
+                  <li>Liên minh công – nông – trí tạo sức mạnh tổng hợp.</li>
+                </ul>
+              </div>
             </div>
-            <h3 className='text-2xl font-bold ml-4 text-gray-100'>Đặc điểm</h3>
-          </div>
-          <p className='text-gray-300 leading-relaxed text-lg'>
-            Đặc điểm to lớn nhất của thời kỳ quá độ ở Việt Nam là từ một nước nông nghiệp lạc hậu tiến thẳng lên chủ nghĩa xã hội,{' '}
-            <span className='text-[#F3C44D] font-semibold'>
-              không trải qua giai đoạn phát triển tư bản chủ nghĩa.
-            </span>
-          </p>
-        </div>
-      </div>
 
-      {/* Hình minh họa */}
-      <div className='flex items-center justify-center' data-aos='fade-left'>
-        <div className='relative rounded-2xl overflow-hidden shadow-xl group'>
-          <img
-            src='/images\HCM_XHCN.jpg'
-            alt='Tư tưởng Hồ Chí Minh về thời kỳ quá độ'
-            className='w-full h-80 lg:h-96 object-cover transform group-hover:scale-110 transition-transform duration-500'
-            onError={(e) => {
-              e.target.src = 'https://via.placeholder.com/600x400/D4A017/FFFFFF?text=Tư+tưởng+Hồ+Chí+Minh';
-            }}
-          />
-          <div className='absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent'></div>
-          <div className='absolute bottom-6 left-6 right-6'>
-            <p className='text-white text-lg font-medium'>
-              Con đường phát triển đặc biệt của Việt Nam
+            {/* Hình minh họa */}
+            <div className='flex items-center justify-center' data-aos='fade-left'>
+              <div className='relative rounded-2xl overflow-hidden shadow-xl group'>
+                <img
+                  src='/images\MLN121.jpg'
+                  alt='Tư tưởng Hồ Chí Minh về thời kỳ quá độ'
+                  className='w-full h-80 lg:h-96 object-cover transform group-hover:scale-110 transition-transform duration-500'
+                  onError={(e) => {
+                    e.target.src = 'https://via.placeholder.com/600x400/D4A017/FFFFFF?text=Tư+tưởng+Hồ+Chí+Minh';
+                  }}
+                />
+                <div className='absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent'></div>
+                <div className='absolute bottom-6 left-6 right-6'>
+                  <p className='text-white text-lg font-medium'>
+                    Con đường phát triển đặc biệt của Việt Nam
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Nhiệm vụ */}
+          <div className='mb-20'>
+            <h3 className='text-3xl md:text-4xl font-bold text-center mb-4' data-aos='fade-up'>
+              <span className='bg-gradient-to-r from-[#D4A017] to-[#F3C44D] bg-clip-text text-transparent'>
+                Ý nghĩa và điều kiện thực hiện sứ mệnh lịch sử của giai cấp công nhân trong thời đại ngày nay
+              </span>
+            </h3>
+
+
+            <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6'>
+              {[
+                {
+                  icon: <Building2 className='w-8 h-8' />,
+                  title: 'Chính trị',
+                  content: 'Giai cấp công nhân là lực lượng lãnh đạo cách mạng, thông qua Đảng Cộng sản xây dựng và bảo vệ nhà nước của dân, do dân, vì dân, bảo đảm quyền dân chủ và công bằng xã hội.',
+                  gradient: 'from-[#D4A017] to-[#F3C44D]',
+                  delay: 100
+                },
+                {
+                  icon: <Users className='w-8 h-8' />,
+                  title: 'Kinh tế',
+                  content: 'Công nhân là lực lượng sản xuất chủ yếu, nắm vững công nghệ, dẫn đầu công nghiệp hóa – hiện đại hóa – chuyển đổi số, tạo nền tảng vật chất cho xã hội mới.',
+                  gradient: 'from-[#D4A017] to-[#F3C44D]',
+                  delay: 200
+                },
+                {
+                  icon: <BookOpen className='w-8 h-8' />,
+                  title: 'Văn hóa',
+                  content: 'Là nòng cốt trong xây dựng con người XHCN, công nhân góp phần hình thành lối sống văn minh, kỷ luật, có tri thức và tinh thần tập thể, hướng tới xã hội tiến bộ và nhân văn.',
+                  gradient: 'from-[#D4A017] to-[#F3C44D]',
+                  delay: 300
+                },
+                {
+                  icon: <Handshake className='w-8 h-8' />,
+                  title: 'Quan hệ xã hội',
+                  content: 'Thúc đẩy bình đẳng, đoàn kết và tiến bộ xã hội, góp phần xóa bỏ áp bức, bất công; khẳng định vai trò liên minh công – nông – trí trong sự nghiệp phát triển đất nước.',
+                  gradient: 'from-[#D4A017] to-[#F3C44D]',
+                  delay: 400
+                }
+              ].map((task, index) => (
+                <div
+                  key={index}
+                  className='bg-[#272626] rounded-2xl p-6 border border-[#D4A017]/20 hover:border-[#D4A017]/40 transition-all duration-300 hover:transform hover:-translate-y-2 hover:shadow-2xl group'
+                  data-aos='flip-up'
+                  data-aos-delay={task.delay}
+                >
+                  <div className={`p-3 rounded-lg bg-gradient-to-r ${task.gradient} mb-4 group-hover:scale-110 transition-transform duration-300`}>
+                    <div className='text-white'>{task.icon}</div>
+                  </div>
+                  <h4 className='text-xl font-bold text-gray-100 mb-3 group-hover:text-[#F3C44D] transition-colors'>
+                    {task.title}
+                  </h4>
+                  <p className='text-gray-300 text-sm leading-relaxed'>{task.content}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* Nguyên tắc xây dựng */}
+          <div>
+            <h3 className='text-3xl md:text-4xl font-bold text-center mb-4' data-aos='fade-up'>
+              <span className='bg-gradient-to-r from-[#D4A017] to-[#F3C44D] bg-clip-text text-transparent'>
+                Liên hệ thực tiễn Việt Nam hiện nay
+              </span>
+            </h3>
+            <p className='text-xl text-center text-gray-400 mb-12' data-aos='fade-up' data-aos-delay='200'>
+              Gợi mở vai trò, thách thức và hướng phát triển của giai cấp công nhân trong thời kỳ mới.
             </p>
+
+            <div className='grid grid-cols-1 md:grid-cols-2 gap-8' data-aos='fade-up' data-aos-delay='400'>
+              {[
+                {
+                  number: 'I',
+                  icon: <BookOpen className='w-6 h-6' />,
+                  title: 'Vai trò tiên phong của giai cấp công nhân',
+                  content: 'Giai cấp công nhân là lực lượng nòng cốt trong công nghiệp hóa, hiện đại hóa và chuyển đổi số. Khẳng định vai trò trung tâm của công nhân trong phát triển kinh tế – xã hội.',
+                  delay: 100
+                },
+                {
+                  number: 'II',
+                  icon: <Shield className='w-6 h-6' />,
+                  title: 'Lực lượng chính trị trung tâm',
+                  content: 'Công nhân cùng với Đảng và nhân dân xây dựng Nhà nước pháp quyền XHCN. Là lực lượng bảo vệ nền tảng tư tưởng của Đảng, góp phần giữ vững ổn định chính trị và thúc đẩy dân chủ.',
+                  delay: 200
+                },
+                {
+                  number: 'III',
+                  icon: <Link className='w-6 h-6' />,
+                  title: 'Thách thức trong thời đại mới',
+                  content: 'Cách mạng công nghiệp 4.0 đặt ra yêu cầu về trình độ chuyên môn và kỹ năng công nghệ cao.Nhấn mạnh nhu cầu cấp thiết phải đổi mới tư duy, nâng cao năng lực của đội ngũ công nhân',
+                  delay: 300
+                },
+                {
+                  number: 'IV',
+                  icon: <ArrowRight className='w-6 h-6' />,
+                  title: 'Hướng phát triển và nhiệm vụ trọng tâm',
+                  content: 'Không ngừng học tập, rèn luyện, thích ứng với công nghệ mới. Phát huy tinh thần sáng tạo, trách nhiệm, tiếp tục là lực lượng tiên phong trong xây dựng và bảo vệ Tổ quốc XHCN.',
+                  delay: 400
+                }
+              ].map((principle, index) => (
+                <div
+                  key={index}
+                  className='relative bg-[#272626] rounded-2xl p-8 border border-[#D4A017]/20 hover:border-[#D4A017]/40 transition-all duration-300 hover:transform hover:-translate-y-1 hover:shadow-xl group'
+                  data-aos='zoom-in'
+                  data-aos-delay={principle.delay}
+                >
+                  {/* Roman Number Badge */}
+                  <div className='absolute -top-4 -left-4 w-12 h-12 bg-gradient-to-r from-[#D4A017] to-[#F3C44D] rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300'>
+                    <span className='text-gray-900 font-bold text-lg'>{principle.number}</span>
+                  </div>
+
+                  <div className='flex items-start space-x-4 mt-2'>
+                    <div className='p-2 rounded-lg bg-gradient-to-r from-[#D4A017] to-[#F3C44D] flex-shrink-0 group-hover:scale-110 transition-transform duration-300'>
+                      <div className='text-gray-900'>{principle.icon}</div>
+                    </div>
+                    <div className='flex-1'>
+                      <h4 className='text-xl font-bold text-gray-100 mb-2 group-hover:text-[#F3C44D] transition-colors'>
+                        {principle.title}
+                      </h4>
+                      <p className='text-gray-300 leading-relaxed'>{principle.content}</p>
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* Decorative Quote Section */}
+          <div className='relative mt-20'>
+            <div className='absolute inset-0 flex items-center justify-center opacity-5'>
+              <div className='w-96 h-96 bg-gradient-to-r from-[#D4A017] to-[#F3C44D] rounded-full blur-3xl'></div>
+            </div>
+            <div className='relative text-center py-16' data-aos='fade-up'>
+              <Quote className='w-12 h-12 text-[#D4A017] mx-auto mb-6 opacity-60' />
+              <blockquote className='text-2xl md:text-3xl font-light text-gray-200 italic max-w-4xl mx-auto leading-relaxed mb-6'>
+                "Giải phóng giai cấp công nhân là sự nghiệp của chính giai cấp công nhân"
+              </blockquote>
+              <cite className='text-lg text-[#F3C44D] font-medium not-italic'>
+                — Marx–Lenin —
+              </cite>
+            </div>
           </div>
         </div>
-      </div>
-    </div>
+      </section>
 
-    {/* Nhiệm vụ */}
-    <div className='mb-20'>
-      <h3 className='text-3xl md:text-4xl font-bold text-center mb-4' data-aos='fade-up'>
-        <span className='bg-gradient-to-r from-[#D4A017] to-[#F3C44D] bg-clip-text text-transparent'>
-          Nhiệm vụ của thời kỳ quá độ
-        </span>
-      </h3>
-      <p className='text-xl text-center text-gray-400 mb-12 max-w-4xl mx-auto' data-aos='fade-up' data-aos-delay='200'>
-        Đấu tranh cải tạo, xóa bỏ tàn tích của chế độ xã hội cũ, xây dựng các yếu tố mới phù hợp với quy luật tiến lên chủ nghĩa xã hội
-      </p>
-
-      <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6'>
-        {[
-          {
-            icon: <Building2 className='w-8 h-8' />,
-            title: 'Chính trị',
-            content: 'Xây dựng được chế độ dân chủ vì đây là bản chất của chủ nghĩa xã hội',
-            gradient: 'from-[#D4A017] to-[#F3C44D]',
-            delay: 100
-          },
-          {
-            icon: <Users className='w-8 h-8' />,
-            title: 'Kinh tế',
-            content: 'Cải tạo nền kinh tế cũ, xây dựng nền kinh tế mới có công nghiệp và nông nghiệp hiện đại',
-            gradient: 'from-[#D4A017] to-[#F3C44D]',
-            delay: 200
-          },
-          {
-            icon: <BookOpen className='w-8 h-8' />,
-            title: 'Văn hóa',
-            content: 'Tẩy trừ mọi di tích thuộc địa và ảnh hưởng nô dịch của văn hóa đế quốc; phát triển văn hóa dân tộc',
-            gradient: 'from-[#D4A017] to-[#F3C44D]',
-            delay: 300
-          },
-          {
-            icon: <Handshake className='w-8 h-8' />,
-            title: 'Quan hệ xã hội',
-            content: 'Thay đổi triệt để những quan hệ cũ; xây dựng xã hội dân chủ, công bằng, văn minh',
-            gradient: 'from-[#D4A017] to-[#F3C44D]',
-            delay: 400
-          }
-        ].map((task, index) => (
-          <div
-            key={index}
-            className='bg-[#272626] rounded-2xl p-6 border border-[#D4A017]/20 hover:border-[#D4A017]/40 transition-all duration-300 hover:transform hover:-translate-y-2 hover:shadow-2xl group'
-            data-aos='flip-up'
-            data-aos-delay={task.delay}
-          >
-            <div className={`p-3 rounded-lg bg-gradient-to-r ${task.gradient} mb-4 group-hover:scale-110 transition-transform duration-300`}>
-              <div className='text-white'>{task.icon}</div>
-            </div>
-            <h4 className='text-xl font-bold text-gray-100 mb-3 group-hover:text-[#F3C44D] transition-colors'>
-              {task.title}
-            </h4>
-            <p className='text-gray-300 text-sm leading-relaxed'>{task.content}</p>
-          </div>
-        ))}
-      </div>
-    </div>
-
-    {/* Nguyên tắc xây dựng */}
-    <div>
-      <h3 className='text-3xl md:text-4xl font-bold text-center mb-4' data-aos='fade-up'>
-        <span className='bg-gradient-to-r from-[#D4A017] to-[#F3C44D] bg-clip-text text-transparent'>
-          Nguyên tắc xây dựng chủ nghĩa xã hội
-        </span>
-      </h3>
-      <p className='text-xl text-center text-gray-400 mb-12' data-aos='fade-up' data-aos-delay='200'>
-        Bốn nguyên tắc cơ bản trong thời kỳ quá độ
-      </p>
-
-      <div className='grid grid-cols-1 md:grid-cols-2 gap-8' data-aos='fade-up' data-aos-delay='400'>
-        {[
-          {
-            number: 'I',
-            icon: <BookOpen className='w-6 h-6' />,
-            title: 'Nền tảng Mác - Lênin',
-            content: 'Mọi tư tưởng, hành động phải được thực hiện trên nền tảng chủ nghĩa Mác - Lênin.',
-            delay: 100
-          },
-          {
-            number: 'II',
-            icon: <Shield className='w-6 h-6' />,
-            title: 'Độc lập dân tộc',
-            content: 'Phải giữ vững độc lập dân tộc trong mọi hoàn cảnh và điều kiện.',
-            delay: 200
-          },
-          {
-            number: 'III',
-            icon: <Link className='w-6 h-6' />,
-            title: 'Đoàn kết quốc tế',
-            content: 'Phải đoàn kết, học tập kinh nghiệm của các nước anh em xã hội chủ nghĩa.',
-            delay: 300
-          },
-          {
-            number: 'IV',
-            icon: <ArrowRight className='w-6 h-6' />,
-            title: 'Xây dựng & đấu tranh',
-            content: 'Xây phải đi đôi với chống - vừa xây dựng cái mới, vừa đấu tranh chống cái cũ.',
-            delay: 400
-          }
-        ].map((principle, index) => (
-          <div
-            key={index}
-            className='relative bg-[#272626] rounded-2xl p-8 border border-[#D4A017]/20 hover:border-[#D4A017]/40 transition-all duration-300 hover:transform hover:-translate-y-1 hover:shadow-xl group'
-            data-aos='zoom-in'
-            data-aos-delay={principle.delay}
-          >
-            {/* Roman Number Badge */}
-            <div className='absolute -top-4 -left-4 w-12 h-12 bg-gradient-to-r from-[#D4A017] to-[#F3C44D] rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300'>
-              <span className='text-gray-900 font-bold text-lg'>{principle.number}</span>
-            </div>
-            
-            <div className='flex items-start space-x-4 mt-2'>
-              <div className='p-2 rounded-lg bg-gradient-to-r from-[#D4A017] to-[#F3C44D] flex-shrink-0 group-hover:scale-110 transition-transform duration-300'>
-                <div className='text-gray-900'>{principle.icon}</div>
-              </div>
-              <div className='flex-1'>
-                <h4 className='text-xl font-bold text-gray-100 mb-2 group-hover:text-[#F3C44D] transition-colors'>
-                  {principle.title}
-                </h4>
-                <p className='text-gray-300 leading-relaxed'>{principle.content}</p>
-              </div>
-            </div>
-          </div>
-        ))}
-      </div>
-    </div>
-
-    {/* Decorative Quote Section */}
-    <div className='relative mt-20'>
-      <div className='absolute inset-0 flex items-center justify-center opacity-5'>
-        <div className='w-96 h-96 bg-gradient-to-r from-[#D4A017] to-[#F3C44D] rounded-full blur-3xl'></div>
-      </div>
-      <div className='relative text-center py-16' data-aos='fade-up'>
-        <Quote className='w-12 h-12 text-[#D4A017] mx-auto mb-6 opacity-60' />
-        <blockquote className='text-2xl md:text-3xl font-light text-gray-200 italic max-w-4xl mx-auto leading-relaxed mb-6'>
-          "Con đường phát triển của Việt Nam là một con đường đặc biệt, 
-          từ một nước nông nghiệp lạc hậu tiến thẳng lên chủ nghĩa xã hội"
-        </blockquote>
-        <cite className='text-lg text-[#F3C44D] font-medium not-italic'>
-          — Tư tưởng Hồ Chí Minh —
-        </cite>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section id='quiz' className='py-20 px-4 bg-[#1A1A1A]'>
+      <section id='quiz' className='py-20 px-4 bg-[#1A1A1A]'>
         <div className='max-w-4xl mx-auto'>
           <h2 className='text-4xl md:text-5xl font-bold text-center mb-4' data-aos='fade-down'>
             <span className='bg-gradient-to-r from-[#D4A017] to-[#F3C44D] bg-clip-text text-transparent'>
@@ -927,8 +891,8 @@ export default function LandingPage() {
                 </div>
                 <div className='text-lg text-gray-300'>
                   {calculateScore() === quizQuestions.length ? 'Xuất sắc! 🎉' :
-                   calculateScore() >= quizQuestions.length * 0.8 ? 'Tốt! 👏' :
-                   calculateScore() >= quizQuestions.length * 0.6 ? 'Khá! 👍' : 'Cần cố gắng thêm! 💪'}
+                    calculateScore() >= quizQuestions.length * 0.8 ? 'Tốt! 👏' :
+                      calculateScore() >= quizQuestions.length * 0.6 ? 'Khá! 👍' : 'Cần cố gắng thêm! 💪'}
                 </div>
                 <button
                   onClick={() => {
